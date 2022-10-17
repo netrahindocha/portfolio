@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.projectList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project{
+    width: 20em;
+    height: 15em;
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid black;
+}
+
+.newsAI{
+    background: url('https://images.unsplash.com/photo-1588681664899-f142ff2dc9b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter:contrast(150%) blur(0.3px);
+}
+
+.newsAI:hover{
+    opacity: 80%;
+}
+
+.trademates{
+    background: url('https://cdnblog.etmoney.com/wp-content/uploads/2021/09/investing-at-market-high-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter:contrast(150%) blur(0.3px);
+}
+
+.textutils{
+    background: url('https://images.unsplash.com/photo-1519337265831-281ec6cc8514?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter:contrast(150%) blur(0.3px);
+}
+
+.digiCalc{
+    background: url('https://images.unsplash.com/photo-1642043175009-5997b3a078d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter:contrast(200%) blur(0.3px);
+}
+
+.dieroFoods{
+    background: url('https://images.unsplash.com/photo-1507133750040-4a8f57021571?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter:contrast(120%) blur(0.3px);
+}
+
+.fastaid{
+    background: url('https://images.unsplash.com/photo-1591562747474-ab6e2dab1070?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    filter:contrast(150%) blur(0.3px);
+}
+
+.magicNotes{
+    background: url('https://images.unsplash.com/photo-1560383835-cdcf67aab574?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter:contrast(120%) blur(0.3px);
+}
+
+.muscleUp{
+    background: url('https://images.unsplash.com/photo-1604480133080-602261a680df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter:contrast(140%) blur(0.3px) grayscale(100);
+
+}
+
+/* UTILITIES */
+
+.flexRow{
+    display: flex;
+}
+
+.flexCol{
+    display: flex;
+    flex-direction: column;
+}
+
+.justifyCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.alignCenter{
+    display: flex;
+    align-items: center;
+}
