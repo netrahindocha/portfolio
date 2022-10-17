@@ -1,29 +1,17 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 .triangles{
-    /* border: 2px solid black; */
-    width: 40em;
-    margin-left: 50em;
+    /* border: 2px solid white; */
+    width: 0;
+    margin-left: 180em;
 }
 
 .container{
     margin: 8em;
-}
-
-.borderOne{
-    /* width: 15em; */
-    /* height: 12em; */
-    width: 0;
-    height: 0;
-    border-left: 12em solid transparent;
-    border-right: 12em solid transparent;
-    border-bottom: 15em solid black;
-    border-top: none;
-    bottom: 10em;
-    position: absolute;
 }
 
 .one img{
@@ -31,6 +19,7 @@ body {
     height: 12em;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     position: relative;
+    z-index: 1;
 }
 
 .two img{
@@ -41,6 +30,7 @@ body {
     position: relative;
     bottom: 1.5em;
     right: 7.5em;
+    z-index: 1;
 }
 
 .three img{
@@ -50,6 +40,7 @@ body {
     position: relative;
     right: 11.5em;
     bottom: 1em;
+    z-index: 1;
 }
 
 .four img{
@@ -58,6 +49,7 @@ body {
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     position: relative;
     right: 21em;
+    z-index: 1;
 }
 
 .five img{
@@ -68,6 +60,7 @@ body {
     position: relative;
     top: 9.3em;
     right: 28em;
+    z-index: 1;
 }
 
 .six img{
@@ -78,6 +71,7 @@ body {
     position: relative;
     bottom: 7em;
     right: 36.5em;
+    z-index: 1;
 }
 
 .seven img{
@@ -86,8 +80,95 @@ body {
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     position: relative;
     right: 48.5em;
+    z-index: 1;
 }
 
+.borderOne{
+    width: 0;
+    height: 0;
+    border-left: 8em solid transparent;
+    border-right: 8em solid transparent;
+    border-bottom: 12.8em solid lightblue;
+    border-top: none;
+    position: relative;
+    right: 109.5em;
+    bottom: 0.1em;
+}
+
+.borderTwo{
+    width: 0;
+    height: 0;
+    border-left: 9.55em solid transparent;
+    border-right: 9.55em solid transparent;
+    border-bottom: 15.85em solid lightblue;
+    transform: rotate(180deg);
+    border-top: none;
+    position: relative;
+    right: 118.05em;
+    bottom: 1.37em;
+}
+
+.borderThree{
+    width: 0;
+    height: 0;
+    border-left: 8em solid transparent;
+    border-right: 8em solid transparent;
+    border-bottom: 12.8em solid lightblue;
+    border-top: none;
+    position: relative;
+    right: 131.1em;
+    top: 7.35em;
+}
+
+.borderFour{
+    width: 0;
+    height: 0;
+    border-left: 9.55em solid transparent;
+    border-right: 9.55em solid transparent;
+    border-bottom: 15.85em solid lightblue;
+    border-top: none;
+    position: relative;
+    right: 139.13em;
+    bottom: 7.38em;
+}
+
+.borderFive{
+    width: 0;
+    height: 0;
+    border-left: 9.55em solid transparent;
+    border-right: 9.55em solid transparent;
+    border-bottom: 15.85em solid lightblue;
+    transform: rotate(180deg);
+    border-top: none;
+    position: relative;
+    right: 175.83em;
+    top: 9.3em;
+}
+
+.borderSix{
+    width: 0;
+    height: 0;
+    border-left: 9.55em solid transparent;
+    border-right: 9.55em solid transparent;
+    border-bottom: 15.85em solid lightblue;
+    border-top: none;
+    transform: rotate(180deg);
+    position: relative;
+    right: 147.25em;
+    bottom: 7em;
+}
+
+.borderSeven{
+    width: 0;
+    height: 0;
+    border-left: 11.6em solid transparent;
+    border-right: 11.6em solid transparent;
+    border-bottom: 19.89em solid lightblue;
+    border-top: none;
+    position: relative;
+    right: 179.5em;
+    bottom: 0.27em;
+}
 
 
 /* UTILITIES */
