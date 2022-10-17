@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.triangles{
+    /* border: 2px solid black; */
+    width: 40em;
+    margin-left: 50em;
+}
+
+.container{
+    margin: 8em;
+}
+
+.borderOne{
+    /* width: 15em; */
+    /* height: 12em; */
+    width: 0;
+    height: 0;
+    border-left: 12em solid transparent;
+    border-right: 12em solid transparent;
+    border-bottom: 15em solid black;
+    border-top: none;
+    bottom: 10em;
+    position: absolute;
+}
+
+.one img{
+    width: 15em;
+    height: 12em;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: relative;
+}
+
+.two img{
+    width: 18em;
+    height: 15em;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(180deg);
+    position: relative;
+    bottom: 1.5em;
+    right: 7.5em;
+}
+
+.three img{
+    width: 18em;
+    height: 15em;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: relative;
+    right: 11.5em;
+    bottom: 1em;
+}
+
+.four img{
+    width: 15em;
+    height: 12em;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: relative;
+    right: 21em;
+}
+
+.five img{
+    width: 18em;
+    height: 15em;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(180deg);
+    position: relative;
+    top: 9.3em;
+    right: 28em;
+}
+
+.six img{
+    width: 18em;
+    height: 15em;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(180deg);
+    position: relative;
+    bottom: 7em;
+    right: 36.5em;
+}
+
+.seven img{
+    width: 22em;
+    height: 19em;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: relative;
+    right: 48.5em;
+}
+
+
+
+/* UTILITIES */
+
+.flexRow {
+    display: flex;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.justifyCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.alignCenter {
+    display: flex;
+    align-items: center;
+}
